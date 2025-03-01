@@ -248,6 +248,7 @@ model DestinationCalendar {
 enum UserPermissionRole {
   USER
   ADMIN
+  GUEST
 }
 
 // It holds the password of a User, separate from the User model to avoid leaking the password hash
