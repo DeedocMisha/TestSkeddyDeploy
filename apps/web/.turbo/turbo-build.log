@@ -24,9 +24,6 @@
 [33mDuplicate value found in common.json keys: [0m  verify_email and verify_email_email_button
    Creating an optimized production build ...
 <w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (836kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
-request to https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap failed, reason: 
-
-Retrying 1/3...
  ⚠ Compiled with warnings
 
 ../../node_modules/next-i18next/dist/commonjs/serverSideTranslations.js
@@ -150,7 +147,7 @@ Module not found: Can't resolve 'bufferutil' in '/home/deedoc/Work/Projects/Sked
 
 Import trace for requested module:
 ../../node_modules/@replexica/sdk/node_modules/ws/lib/buffer-util.js
-../../node_modules/@replexica/sdk/node_modules/ws/lib/receiver.js
+../../node_modules/@replexica/sdk/node_modules/ws/lib/websocket.js
 ../../node_modules/@replexica/sdk/node_modules/ws/index.js
 ../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/living/websockets/WebSocket-impl.js
 ../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/browser/Window.js
@@ -170,7 +167,7 @@ Module not found: Can't resolve 'utf-8-validate' in '/home/deedoc/Work/Projects/
 
 Import trace for requested module:
 ../../node_modules/@replexica/sdk/node_modules/ws/lib/validation.js
-../../node_modules/@replexica/sdk/node_modules/ws/lib/receiver.js
+../../node_modules/@replexica/sdk/node_modules/ws/lib/websocket.js
 ../../node_modules/@replexica/sdk/node_modules/ws/index.js
 ../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/living/websockets/WebSocket-impl.js
 ../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/browser/Window.js
@@ -190,7 +187,7 @@ Critical dependency: the request of a dependency is an expression
 
 Import trace for requested module:
 ../../node_modules/deasync/index.js
-../../node_modules/http-cookie-agent/dist/utils/save_cookies_from_header.js
+../../node_modules/http-cookie-agent/dist/utils/create_cookie_header_value.js
 ../../node_modules/http-cookie-agent/dist/http/create_cookie_agent.js
 ../../node_modules/http-cookie-agent/dist/http/index.js
 ../../node_modules/http-cookie-agent/http/index.js
@@ -213,9 +210,9 @@ Import trace for requested module:
 ../../node_modules/fetch/lib/fetch.js
 ../../node_modules/ews-javascript-api/js/XHRDefault.js
 ../../node_modules/ews-javascript-api/js/ExchangeWebService.js
-../../packages/app-store/exchange2016calendar/lib/CalendarService.ts
-../../packages/app-store/exchange2016calendar/lib/index.ts
-../../packages/app-store/exchange2016calendar/index.ts
+../../packages/app-store/exchangecalendar/lib/CalendarService.ts
+../../packages/app-store/exchangecalendar/lib/index.ts
+../../packages/app-store/exchangecalendar/index.ts
 ../../packages/app-store/index.ts
 ../../packages/app-store/_utils/getCalendar.ts
 ../../packages/core/CalendarManager.ts
@@ -429,10 +426,10 @@ See more info here: https://nextjs.org/docs/messages/large-page-data
 
  ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
    Generating static pages (23/95) 
-12[0m[0m:38[0m[0m:32[0m[0m:258[0m[0m [WARN[0m[0m] orgDomains.ts Org support not enabled for hostname without "." {
+17[0m[0m:19[0m[0m:09[0m[0m:028[0m[0m [WARN[0m[0m] orgDomains.ts Org support not enabled for hostname without "." {
   hostname: [32m''[39m
 }
-12[0m[0m:38[0m[0m:32[0m[0m:300[0m[0m [WARN[0m[0m] orgDomains.ts Org support not enabled for hostname without "." {
+17[0m[0m:19[0m[0m:09[0m[0m:074[0m[0m [WARN[0m[0m] orgDomains.ts Org support not enabled for hostname without "." {
   hostname: [32m''[39m
 }
    Generating static pages (47/95) 
@@ -599,7 +596,7 @@ Route (app)                                                    Size     First Lo
   ├ chunks/8593596e-795ad9f657a109ca.js                        53.8 kB
   ├ chunks/99619-2074ec9ae3156845.js                           28.3 kB
   ├ chunks/main-app-170de96683de5a02.js                        240 B
-  └ chunks/webpack-50aa16128f17dec1.js                         6.81 kB
+  └ chunks/webpack-761f6f3c8828023a.js                         6.81 kB
 
 Route (pages)                                                  Size     First Load JS
 ┌   /_app                                                      0 B             154 kB
@@ -717,7 +714,7 @@ Route (pages)                                                  Size     First Lo
   ├ chunks/framework-96da8267acd1b075.js                       67.3 kB
   ├ chunks/main-b5847f709d5ffaa9.js                            39.9 kB
   ├ chunks/pages/_app-122917d482cfdab7.js                      40 kB
-  ├ chunks/webpack-50aa16128f17dec1.js                         6.81 kB
+  ├ chunks/webpack-761f6f3c8828023a.js                         6.81 kB
   └ css/48c3915894b3bd85.css                                   55.3 kB
 
 ƒ Middleware                                                   100 kB
