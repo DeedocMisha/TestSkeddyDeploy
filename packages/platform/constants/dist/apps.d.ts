@@ -1,0 +1,32 @@
+export declare const GOOGLE_CALENDAR_TYPE = "google_calendar";
+export declare const GOOGLE_CALENDAR_ID = "google-calendar";
+export declare const OFFICE_365_CALENDAR_TYPE = "office365_calendar";
+export declare const OFFICE_365_CALENDAR_ID = "office365-calendar";
+export declare const GOOGLE_CALENDAR = "google";
+export declare const OFFICE_365_CALENDAR = "office365";
+export declare const APPLE_CALENDAR = "apple";
+export declare const ICS_CALENDAR = "ics-feed";
+export declare const ICS_CALENDAR_ID = "ics-feed";
+export declare const APPLE_CALENDAR_TYPE = "apple_calendar";
+export declare const ICS_CALENDAR_TYPE = "ics-feed_calendar";
+export declare const APPLE_CALENDAR_ID = "apple-calendar";
+export declare const CALENDARS: readonly ["google", "office365", "apple"];
+export declare const CREDENTIAL_CALENDARS: readonly ["apple"];
+export declare const GOOGLE_MEET = "google-meet";
+export declare const GOOGLE_MEET_TYPE = "google_video";
+export declare const GOOGLE_MEET_ID = "google-meet";
+export declare const ZOOM = "zoom";
+export declare const ZOOM_TYPE = "zoom_video";
+export declare const OFFICE_365_VIDEO = "msteams";
+export declare const OFFICE_365_VIDEO_TYPE = "office365_video";
+export declare const CAL_VIDEO = "daily-video";
+export declare const CAL_VIDEO_TYPE = "daily_video";
+export declare const CONFERENCING_APPS: string[];
+export declare const APPS_TYPE_ID_MAPPING: {
+    readonly google_calendar: "google-calendar";
+    readonly office365_calendar: "office365-calendar";
+    readonly apple_calendar: "apple-calendar";
+    readonly "ics-feed_calendar": "ics-feed";
+    readonly google_video: "google-meet";
+};
+//# sourceMappingURL=apps.d.ts.map

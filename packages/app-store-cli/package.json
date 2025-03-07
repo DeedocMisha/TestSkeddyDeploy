@@ -18,6 +18,7 @@
     "dist/cli.js"
   ],
   "dependencies": {
+    "@calcom/config": "workspace:^",
     "@calcom/lib": "*",
     "ink": "^3.2.0",
     "ink-select-input": "^4.2.1",

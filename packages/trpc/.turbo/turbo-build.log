@@ -1,0 +1,17 @@
+/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:99706
+                throw e;
+                ^
+
+Error: Debug Failure. No error for last overload signature
+    at resolveCall (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:65223:38)
+    at resolveCallExpression (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:65541:20)
+    at resolveSignature (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:65869:28)
+    at getResolvedSignature (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:65889:26)
+    at checkCallExpression (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:66000:29)
+    at checkExpressionWorker (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:68624:28)
+    at checkExpression (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:68535:38)
+    at checkAwaitExpression (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:67260:31)
+    at checkExpressionWorker (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:68652:28)
+    at checkExpression (/home/deedoc/Work/Projects/Skeddy/packages/trpc/node_modules/typescript/lib/tsc.js:68535:38)
+
+Node.js v22.14.0

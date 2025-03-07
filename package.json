@@ -90,10 +90,14 @@
     "@types/dompurify": "^3.0.5",
     "@types/jsdom": "^21.1.3",
     "@types/jsonwebtoken": "^9.0.3",
+    "@types/node": "^22.13.8",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
     "@vitest/ui": "^2.1.1",
     "c8": "^7.13.0",
     "checkly": "latest",
     "dotenv-checker": "^1.1.5",
+    "eslint-config-next": "^15.2.0",
     "husky": "^8.0.0",
     "i18n-unused": "^0.13.0",
     "jest-diff": "^29.5.0",
@@ -107,8 +111,9 @@
     "prettier": "^2.8.6",
     "prismock": "^1.33.4",
     "resize-observer-polyfill": "^1.5.1",
+    "ts-node": "^10.9.2",
     "tsc-absolute": "^1.0.0",
-    "typescript": "^4.9.4",
+    "typescript": "latest",
     "vitest": "^2.1.1",
     "vitest-fetch-mock": "^0.3.0",
     "vitest-mock-extended": "^2.0.2"
@@ -117,10 +122,13 @@
     "@calcom/config": "workspace:^",
     "@daily-co/daily-js": "^0.59.0",
     "@next/third-parties": "^14.2.5",
+    "@sentry/nextjs": "^9.3.0",
     "@vercel/functions": "^1.4.0",
     "city-timezones": "^1.2.1",
     "class-variance-authority": "^0.7.1",
     "eslint": "^8.34.0",
+    "kbar": "^0.1.0-beta.45",
+    "msw": "^2.7.3",
     "turbo": "^1.10.1"
   },
   "resolutions": {
@@ -138,10 +146,6 @@
     "@prisma/client@5.4.2": "patch:@prisma/client@npm%3A5.4.2#./.yarn/patches/@prisma-client-npm-5.4.2-fca489b2dc.patch"
   },
   "lint-staged": {
-    "(apps|packages)/**/*.{js,ts,jsx,tsx}": [
-      "prettier --write",
-      "eslint --fix"
-    ],
     "*.json": [
       "prettier --write"
     ],

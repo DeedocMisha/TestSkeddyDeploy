@@ -1,15 +1,19 @@
 // This is your Prisma Schema file
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
-datasource db {
-  provider  = "postgresql"
-  url       = env("DATABASE_URL")
-  directUrl = env("DATABASE_DIRECT_URL")
-}
-
 generator client {
   provider        = "prisma-client-js"
   previewFeatures = ["views"]
+}
+
+generator enumGenerator {
+  provider = "ts-node --transpile-only ./enum-generator.ts"
+  output   = "../generated/enums"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
 }
 
 generator zod {

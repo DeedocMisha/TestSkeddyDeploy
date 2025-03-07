@@ -1,0 +1,729 @@
+[33mDuplicate value found in common.json keys: [0m  emailed_host_and_attendee and emailed_you_and_attendees
+[33mDuplicate value found in common.json keys: [0m  emailed_host_and_attendee_recurring and emailed_you_and_attendees_recurring
+[33mDuplicate value found in common.json keys: [0m  seats_available_other and seats_available_one
+[33mDuplicate value found in common.json keys: [0m  event_payments_tab_title and payments
+[33mDuplicate value found in common.json keys: [0m  location_variable and location
+[33mDuplicate value found in common.json keys: [0m  additional_notes_variable and additional_notes
+[33mDuplicate value found in common.json keys: [0m  weekly and bookerlayout_week_view
+[33mDuplicate value found in common.json keys: [0m  already_have_account and already_have_an_account
+[33mDuplicate value found in common.json keys: [0m  timezone_variable and timezone
+[33mDuplicate value found in common.json keys: [0m  scheduling_for_your_team and workflow_automation
+[33mDuplicate value found in common.json keys: [0m  oauth_form_title and oAuth_client_creation_form
+[33mDuplicate value found in common.json keys: [0m  oauth_form_description and oAuth_client_creation_form_description
+[33mDuplicate value found in common.json keys: [0m  saml_sso and saml_config
+[33mDuplicate value found in common.json keys: [0m  advanced_managed_events_description and unified_billing_description
+[33mDuplicate value found in common.json keys: [0m  org_admin_no_slots|heading and org_admin_no_slots|subject
+[33mDuplicate value found in common.json keys: [0m  email_team_invite|subject|invited_to_subteam and user_invited_you_to_subteam
+[33mDuplicate value found in common.json keys: [0m  email_team_invite|heading|invited_to_regular_team and email_no_user_invite_heading_team
+[33mDuplicate value found in common.json keys: [0m  email_team_invite|content|invited_to_regular_team and email_user_invite_subheading_team
+[33mDuplicate value found in common.json keys: [0m  create_an_out_of_office and ooo_create_entry_modal
+[33mDuplicate value found in common.json keys: [0m  always and always_requires_confirmation
+[33mDuplicate value found in common.json keys: [0m  attendee_timezone_info and attendee_timezone_variable
+[33mDuplicate value found in common.json keys: [0m  event_start_time_in_attendee_timezone_info and event_start_time_in_attendee_timezone_variable
+[33mDuplicate value found in common.json keys: [0m  event_end_time_in_attendee_timezone_info and event_end_time_in_attendee_timezone_variable
+[33mDuplicate value found in common.json keys: [0m  verify_email and verify_email_email_button
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy] Serializing big strings (836kiB) impacts deserialization performance (consider using Buffer instead and decode when needed)
+request to https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap failed, reason: 
+
+Retrying 1/3...
+ ⚠ Compiled with warnings
+
+../../node_modules/next-i18next/dist/commonjs/serverSideTranslations.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/next-i18next/dist/commonjs/serverSideTranslations.js
+../../node_modules/next-i18next/serverSideTranslations.js
+../../packages/lib/server/i18n.ts
+../../packages/lib/server/repository/user.ts
+../../packages/app-store/routing-forms/components/getServerSidePropsSingleForm.ts
+../../packages/app-store/routing-forms/pages/app-routing.config.tsx
+./modules/apps/[slug]/[...pages]/pages-view.tsx
+
+../../node_modules/next-i18next/dist/commonjs/serverSideTranslations.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/next-i18next/dist/commonjs/serverSideTranslations.js
+../../node_modules/next-i18next/serverSideTranslations.js
+../../packages/lib/server/i18n.ts
+../../packages/lib/server/repository/user.ts
+../../packages/app-store/routing-forms/pages/routing-link/getServerSideProps.ts
+../../packages/app-store/routing-forms/pages/routing-link/[...appPages].tsx
+
+../../node_modules/@opentelemetry/instrumentation-http/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/@opentelemetry/instrumentation-http/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+../../node_modules/@opentelemetry/instrumentation-http/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js
+../../node_modules/@opentelemetry/instrumentation-http/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js
+../../node_modules/@opentelemetry/instrumentation-http/node_modules/@opentelemetry/instrumentation/build/src/index.js
+../../node_modules/@opentelemetry/instrumentation-http/build/src/http.js
+../../node_modules/@opentelemetry/instrumentation-http/build/src/index.js
+./node_modules/@sentry/nextjs/cjs/server/httpIntegration.js
+./node_modules/@sentry/nextjs/cjs/index.server.js
+./app/error.tsx
+
+../../node_modules/@opentelemetry/instrumentation-nestjs-core/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/@opentelemetry/instrumentation-nestjs-core/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+../../node_modules/@opentelemetry/instrumentation-nestjs-core/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js
+../../node_modules/@opentelemetry/instrumentation-nestjs-core/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js
+../../node_modules/@opentelemetry/instrumentation-nestjs-core/node_modules/@opentelemetry/instrumentation/build/src/index.js
+../../node_modules/@opentelemetry/instrumentation-nestjs-core/build/src/instrumentation.js
+../../node_modules/@opentelemetry/instrumentation-nestjs-core/build/src/index.js
+../../node_modules/@sentry/node/cjs/integrations/tracing/nest.js
+../../node_modules/@sentry/node/cjs/index.js
+./node_modules/@sentry/nextjs/cjs/index.server.js
+./app/error.tsx
+
+../../node_modules/@sentry/node/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/@sentry/node/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+../../node_modules/@sentry/node/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js
+../../node_modules/@sentry/node/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js
+../../node_modules/@sentry/node/node_modules/@opentelemetry/instrumentation/build/src/index.js
+../../node_modules/@sentry/node/node_modules/@sentry/opentelemetry/cjs/index.js
+../../node_modules/@sentry/node/cjs/index.js
+./node_modules/@sentry/nextjs/cjs/index.server.js
+./app/error.tsx
+
+../../node_modules/@sentry/node/node_modules/@prisma/instrumentation/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/@sentry/node/node_modules/@prisma/instrumentation/node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+../../node_modules/@sentry/node/node_modules/@prisma/instrumentation/node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js
+../../node_modules/@sentry/node/node_modules/@prisma/instrumentation/node_modules/@opentelemetry/instrumentation/build/src/platform/index.js
+../../node_modules/@sentry/node/node_modules/@prisma/instrumentation/node_modules/@opentelemetry/instrumentation/build/src/index.js
+../../node_modules/@sentry/node/node_modules/@prisma/instrumentation/dist/chunk-B5GLSQ4E.js
+../../node_modules/@sentry/node/node_modules/@prisma/instrumentation/dist/index.js
+../../node_modules/@sentry/node/cjs/integrations/tracing/prisma.js
+../../node_modules/@sentry/node/cjs/index.js
+./node_modules/@sentry/nextjs/cjs/index.server.js
+./app/error.tsx
+
+../../node_modules/next-i18next/dist/commonjs/serverSideTranslations.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/next-i18next/dist/commonjs/serverSideTranslations.js
+../../node_modules/next-i18next/serverSideTranslations.js
+../../packages/lib/server/i18n.ts
+../../packages/lib/server/repository/user.ts
+../../packages/app-store/routing-forms/pages/routing-link/getServerSideProps.ts
+../../packages/app-store/routing-forms/pages/routing-link/[...appPages].tsx
+
+../../node_modules/@boxyhq/saml-jackson/dist/loadConnection.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/@boxyhq/saml-jackson/dist/loadConnection.js
+../../node_modules/@boxyhq/saml-jackson/dist/index.js
+../../packages/features/ee/sso/lib/jackson.ts
+../../packages/features/auth/lib/next-auth-options.ts
+./lib/settings/license-key/new/getServerSideProps.tsx
+./app/settings/license-key/new/page.tsx
+
+../../node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/@opentelemetry/instrumentation/build/src/platform/node/instrumentation.js
+../../node_modules/@opentelemetry/instrumentation/build/src/platform/node/index.js
+../../node_modules/@opentelemetry/instrumentation/build/src/platform/index.js
+../../node_modules/@opentelemetry/instrumentation/build/src/index.js
+../../node_modules/@sentry/nextjs/node_modules/@sentry/node/build/cjs/otel/instrument.js
+../../node_modules/@sentry/nextjs/node_modules/@sentry/node/build/cjs/index.js
+../../node_modules/@sentry/nextjs/build/cjs/index.server.js
+../../packages/lib/server/apiRouteMiddleware.ts
+./app/api/cancel/route.ts
+
+../../node_modules/@replexica/sdk/node_modules/ws/lib/buffer-util.js
+Module not found: Can't resolve 'bufferutil' in '/home/deedoc/Work/Projects/Skeddy/node_modules/@replexica/sdk/node_modules/ws/lib'
+
+Import trace for requested module:
+../../node_modules/@replexica/sdk/node_modules/ws/lib/buffer-util.js
+../../node_modules/@replexica/sdk/node_modules/ws/lib/receiver.js
+../../node_modules/@replexica/sdk/node_modules/ws/index.js
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/living/websockets/WebSocket-impl.js
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/browser/Window.js
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/api.js
+../../node_modules/@replexica/sdk/build/index.cjs
+../../packages/lib/server/service/replexica.ts
+../../packages/features/tasker/tasks/translateEventTypeData.ts
+../../packages/features/tasker/tasks/index.ts
+../../packages/features/tasker/internal-tasker.ts
+../../packages/features/tasker/tasker-factory.ts
+../../packages/features/tasker/index.ts
+../../packages/features/tasker/api/cleanup.ts
+./app/api/tasks/cleanup/route.ts
+
+../../node_modules/@replexica/sdk/node_modules/ws/lib/validation.js
+Module not found: Can't resolve 'utf-8-validate' in '/home/deedoc/Work/Projects/Skeddy/node_modules/@replexica/sdk/node_modules/ws/lib'
+
+Import trace for requested module:
+../../node_modules/@replexica/sdk/node_modules/ws/lib/validation.js
+../../node_modules/@replexica/sdk/node_modules/ws/lib/receiver.js
+../../node_modules/@replexica/sdk/node_modules/ws/index.js
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/living/websockets/WebSocket-impl.js
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/browser/Window.js
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/api.js
+../../node_modules/@replexica/sdk/build/index.cjs
+../../packages/lib/server/service/replexica.ts
+../../packages/features/tasker/tasks/translateEventTypeData.ts
+../../packages/features/tasker/tasks/index.ts
+../../packages/features/tasker/internal-tasker.ts
+../../packages/features/tasker/tasker-factory.ts
+../../packages/features/tasker/index.ts
+../../packages/features/tasker/api/cleanup.ts
+./app/api/tasks/cleanup/route.ts
+
+../../node_modules/deasync/index.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/deasync/index.js
+../../node_modules/http-cookie-agent/dist/utils/save_cookies_from_header.js
+../../node_modules/http-cookie-agent/dist/http/create_cookie_agent.js
+../../node_modules/http-cookie-agent/dist/http/index.js
+../../node_modules/http-cookie-agent/http/index.js
+../../node_modules/@ewsjs/xhr/dist/cookieProvider.js
+../../node_modules/@ewsjs/xhr/dist/index.js
+../../packages/app-store/exchangecalendar/lib/CalendarService.ts
+../../packages/app-store/exchangecalendar/lib/index.ts
+../../packages/app-store/exchangecalendar/index.ts
+../../packages/app-store/index.ts
+../../packages/app-store/_utils/getCalendar.ts
+../../packages/core/CalendarManager.ts
+./app/api/availability/calendar/route.ts
+
+../../node_modules/fetch/node_modules/encoding/lib/iconv-loader.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/fetch/node_modules/encoding/lib/iconv-loader.js
+../../node_modules/fetch/node_modules/encoding/lib/encoding.js
+../../node_modules/fetch/lib/fetch.js
+../../node_modules/ews-javascript-api/js/XHRDefault.js
+../../node_modules/ews-javascript-api/js/ExchangeWebService.js
+../../packages/app-store/exchange2016calendar/lib/CalendarService.ts
+../../packages/app-store/exchange2016calendar/lib/index.ts
+../../packages/app-store/exchange2016calendar/index.ts
+../../packages/app-store/index.ts
+../../packages/app-store/_utils/getCalendar.ts
+../../packages/core/CalendarManager.ts
+./app/api/availability/calendar/route.ts
+
+../../node_modules/handlebars/lib/index.js
+require.extensions is not supported by webpack. Use a loader instead.
+
+Import trace for requested module:
+../../node_modules/handlebars/lib/index.js
+../../packages/features/webhooks/lib/sendPayload.ts
+../../packages/features/webhooks/lib/sendOrSchedulePayload.ts
+../../packages/features/bookings/lib/handleCancelBooking.ts
+./app/api/cancel/route.ts
+
+../../node_modules/handlebars/lib/index.js
+require.extensions is not supported by webpack. Use a loader instead.
+
+Import trace for requested module:
+../../node_modules/handlebars/lib/index.js
+../../packages/features/webhooks/lib/sendPayload.ts
+../../packages/features/webhooks/lib/sendOrSchedulePayload.ts
+../../packages/features/bookings/lib/handleCancelBooking.ts
+./app/api/cancel/route.ts
+
+../../node_modules/handlebars/lib/index.js
+require.extensions is not supported by webpack. Use a loader instead.
+
+Import trace for requested module:
+../../node_modules/handlebars/lib/index.js
+../../packages/features/webhooks/lib/sendPayload.ts
+../../packages/features/webhooks/lib/sendOrSchedulePayload.ts
+../../packages/features/bookings/lib/handleCancelBooking.ts
+./app/api/cancel/route.ts
+
+../../node_modules/http-cookie-agent/dist/utils/validate_cookie_options.js
+Critical dependency: require function is used in a way in which dependencies cannot be statically extracted
+
+Import trace for requested module:
+../../node_modules/http-cookie-agent/dist/utils/validate_cookie_options.js
+../../node_modules/http-cookie-agent/dist/http/create_cookie_agent.js
+../../node_modules/http-cookie-agent/dist/http/index.js
+../../node_modules/http-cookie-agent/http/index.js
+../../node_modules/@ewsjs/xhr/dist/cookieProvider.js
+../../node_modules/@ewsjs/xhr/dist/index.js
+../../packages/app-store/exchangecalendar/lib/CalendarService.ts
+../../packages/app-store/exchangecalendar/lib/index.ts
+../../packages/app-store/exchangecalendar/index.ts
+../../packages/app-store/index.ts
+../../packages/app-store/_utils/getCalendar.ts
+../../packages/core/CalendarManager.ts
+./app/api/availability/calendar/route.ts
+
+../../node_modules/typeorm/connection/ConnectionOptionsReader.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/typeorm/connection/ConnectionOptionsReader.js
+../../node_modules/typeorm/index.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/sql/sql.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/db.js
+../../node_modules/@boxyhq/saml-jackson/dist/index.js
+../../packages/features/ee/sso/lib/jackson.ts
+../../packages/features/auth/lib/next-auth-options.ts
+./lib/settings/license-key/new/getServerSideProps.tsx
+./app/settings/license-key/new/page.tsx
+
+../../node_modules/typeorm/node_modules/app-root-path/lib/app-root-path.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/typeorm/node_modules/app-root-path/lib/app-root-path.js
+../../node_modules/typeorm/node_modules/app-root-path/index.js
+../../node_modules/typeorm/logger/FileLogger.js
+../../node_modules/typeorm/index.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/sql/sql.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/db.js
+../../node_modules/@boxyhq/saml-jackson/dist/index.js
+../../packages/features/ee/sso/lib/jackson.ts
+../../packages/features/auth/lib/next-auth-options.ts
+./lib/settings/license-key/new/getServerSideProps.tsx
+./app/settings/license-key/new/page.tsx
+
+../../node_modules/typeorm/platform/PlatformTools.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/typeorm/platform/PlatformTools.js
+../../node_modules/typeorm/globals.js
+../../node_modules/typeorm/index.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/sql/sql.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/db.js
+../../node_modules/@boxyhq/saml-jackson/dist/index.js
+../../packages/features/ee/sso/lib/jackson.ts
+../../packages/features/auth/lib/next-auth-options.ts
+./lib/settings/license-key/new/getServerSideProps.tsx
+./app/settings/license-key/new/page.tsx
+
+../../node_modules/typeorm/util/DirectoryExportedClassesLoader.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/typeorm/util/DirectoryExportedClassesLoader.js
+../../node_modules/typeorm/connection/ConnectionMetadataBuilder.js
+../../node_modules/typeorm/data-source/DataSource.js
+../../node_modules/typeorm/index.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/sql/sql.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/db.js
+../../node_modules/@boxyhq/saml-jackson/dist/index.js
+../../packages/features/ee/sso/lib/jackson.ts
+../../packages/features/auth/lib/next-auth-options.ts
+./lib/settings/license-key/new/getServerSideProps.tsx
+./app/settings/license-key/new/page.tsx
+
+../../node_modules/typeorm/util/ImportUtils.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/typeorm/util/ImportUtils.js
+../../node_modules/typeorm/connection/ConnectionOptionsReader.js
+../../node_modules/typeorm/index.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/sql/sql.js
+../../node_modules/@boxyhq/saml-jackson/dist/db/db.js
+../../node_modules/@boxyhq/saml-jackson/dist/index.js
+../../packages/features/ee/sso/lib/jackson.ts
+../../packages/features/auth/lib/next-auth-options.ts
+./lib/settings/license-key/new/getServerSideProps.tsx
+./app/settings/license-key/new/page.tsx
+
+./pages/api/version.ts
+Should not import the named export 'version' (imported as 'pjson') from default-exporting module (only default export is available soon)
+
+Import trace for requested module:
+./pages/api/version.ts
+
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/utils.js
+Module not found: Can't resolve 'canvas' in '/home/deedoc/Work/Projects/Skeddy/node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom'
+
+Import trace for requested module:
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/utils.js
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/jsdom/browser/Window.js
+../../node_modules/@replexica/sdk/node_modules/jsdom/lib/api.js
+../../node_modules/@replexica/sdk/build/index.cjs
+../../packages/lib/server/service/replexica.ts
+../../packages/features/tasker/tasks/translateEventTypeData.ts
+../../packages/features/tasker/tasks/index.ts
+../../packages/features/tasker/internal-tasker.ts
+../../packages/features/tasker/tasker-factory.ts
+../../packages/features/tasker/index.ts
+../../packages/features/tasker/api/cleanup.ts
+./app/api/tasks/cleanup/route.ts
+
+../../node_modules/next/dist/compiled/jest-worker/index.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/next/dist/compiled/jest-worker/index.js
+../../node_modules/next/dist/server/lib/squoosh/main.js
+../../node_modules/next/dist/server/image-optimizer.js
+./pages/api/logo.ts
+
+../../node_modules/next/dist/compiled/jest-worker/index.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/next/dist/compiled/jest-worker/index.js
+../../node_modules/next/dist/server/lib/squoosh/main.js
+../../node_modules/next/dist/server/image-optimizer.js
+./pages/api/logo.ts
+
+../../node_modules/next/dist/server/image-optimizer.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+../../node_modules/next/dist/server/image-optimizer.js
+./pages/api/logo.ts
+
+   Linting and checking validity of types ...
+ ⨯ ESLint: Failed to load plugin '@typescript-eslint' declared in '../../.eslintrc.js#overrides[0]': Class extends value undefined is not a constructor or null Referenced from: /home/deedoc/Work/Projects/Skeddy/.eslintrc.js
+   Collecting page data ...
+`markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
+`markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
+`markdownToSafeHTMLClient` should not be used on the server side. use markdownToSafeHTML instead
+Warning: You have opted-out of Automatic Static Optimization due to `getInitialProps` in `pages/_app`. This does not opt-out pages with `getStaticProps`
+Read more: https://nextjs.org/docs/messages/opt-out-auto-static-optimization
+
+   Generating static pages (0/95) ...
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+react-i18next:: You will need to pass in an i18next instance by using initReactI18next
+Warning: data for page "/404" is 186 kB which exceeds the threshold of 128 kB, this amount of data can reduce performance.
+See more info here: https://nextjs.org/docs/messages/large-page-data
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+
+ ⚠ metadata.metadataBase is not set for resolving social open graph or twitter images, using "http://localhost:3000". See https://nextjs.org/docs/app/api-reference/functions/generate-metadata#metadatabase
+   Generating static pages (23/95) 
+12[0m[0m:38[0m[0m:32[0m[0m:258[0m[0m [WARN[0m[0m] orgDomains.ts Org support not enabled for hostname without "." {
+  hostname: [32m''[39m
+}
+12[0m[0m:38[0m[0m:32[0m[0m:300[0m[0m [WARN[0m[0m] orgDomains.ts Org support not enabled for hostname without "." {
+  hostname: [32m''[39m
+}
+   Generating static pages (47/95) 
+   Generating static pages (71/95) 
+ ✓ Generating static pages (95/95) 
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                                    Size     First Load JS
+┌ λ /                                                          411 B          89.5 kB
+├ λ /_not-found                                                0 B                0 B
+├ λ /[user]                                                    16.2 kB         195 kB
+├ λ /[user]/[type]                                             3.28 kB         641 kB
+├ λ /403                                                       5.88 kB         144 kB
+├ λ /500                                                       11.3 kB         172 kB
+├ λ /api/availability/calendar                                 0 B                0 B
+├ λ /api/cancel                                                0 B                0 B
+├ λ /api/customer-card                                         0 B                0 B
+├ λ /api/plain-hash                                            0 B                0 B
+├ λ /api/tasks/cleanup                                         0 B                0 B
+├ λ /api/tasks/cron                                            0 B                0 B
+├ λ /api/teams/create                                          0 B                0 B
+├ λ /apps                                                      8.59 kB         395 kB
+├ λ /apps/[slug]                                               10.2 kB         485 kB
+├ λ /apps/[slug]/setup                                         3.08 kB         102 kB
+├ λ /apps/categories                                           3.25 kB         371 kB
+├ λ /apps/categories/[category]                                7.4 kB          375 kB
+├ λ /apps/installation/[[...step]]                             43.8 kB         448 kB
+├ λ /apps/installed                                            411 B          89.5 kB
+├ λ /apps/installed/[category]                                 17.1 kB         505 kB
+├ λ /auth/error                                                32.5 kB        1.44 MB
+├ λ /auth/forgot-password                                      5.34 kB         162 kB
+├ λ /auth/forgot-password/[id]                                 9.18 kB         166 kB
+├ λ /auth/login                                                9.64 kB         237 kB
+├ λ /auth/logout                                               9.39 kB         192 kB
+├ λ /auth/new                                                  411 B          89.5 kB
+├ λ /auth/oauth2/authorize                                     9.64 kB         241 kB
+├ λ /auth/platform/authorize                                   10.6 kB         160 kB
+├ λ /auth/saml-idp                                             1.66 kB         101 kB
+├ λ /auth/setup                                                10.4 kB         266 kB
+├ λ /auth/signin                                               4.66 kB         134 kB
+├ λ /auth/sso/[provider]                                       3.46 kB         125 kB
+├ λ /auth/sso/direct                                           4.04 kB         111 kB
+├ λ /auth/verify                                               32.7 kB         233 kB
+├ λ /auth/verify-email                                         15.2 kB         202 kB
+├ λ /auth/verify-email-change                                  7.38 kB         136 kB
+├ λ /availability                                              54.4 kB         577 kB
+├ λ /availability/[schedule]                                   22.1 kB         617 kB
+├ λ /availability/troubleshoot                                 1.67 kB        90.8 kB
+├ λ /booking/[uid]                                             221 B           461 kB
+├ λ /booking/[uid]/embed                                       222 B           461 kB
+├ λ /booking/dry-run-successful                                1.5 kB          120 kB
+├ λ /bookings/[status]                                         44.8 kB         579 kB
+├ λ /connect-and-join                                          11.7 kB         198 kB
+├ λ /d/[link]/[slug]                                           3.12 kB         641 kB
+├ λ /enterprise                                                2.47 kB         370 kB
+├ λ /event-types                                               30.9 kB         699 kB
+├ λ /event-types/[type]                                        3.77 kB         571 kB
+├ λ /future/[user]/[type]/embed                                4.27 kB         652 kB
+├ λ /future/[user]/embed                                       15.8 kB         238 kB
+├ λ /future/apps/[slug]/[...pages]                             25.5 kB         735 kB
+├ λ /future/org/[orgSlug]/[user]/[type]/embed                  16.4 kB         826 kB
+├ λ /future/org/[orgSlug]/[user]/embed                         219 B           372 kB
+├ λ /future/org/[orgSlug]/embed                                344 B           366 kB
+├ λ /getting-started/[[...step]]                               44.1 kB         614 kB
+├ ○ /icons                                                     1.27 kB         104 kB
+├ λ /insights                                                  13.9 kB         548 kB
+├ λ /insights/routing                                          17.5 kB         569 kB
+├ λ /insights/virtual-queues                                   2.34 kB         680 kB
+├ λ /maintenance                                               6.88 kB         134 kB
+├ λ /more                                                      2.05 kB         369 kB
+├ λ /org/[orgSlug]                                             344 B           366 kB
+├ λ /org/[orgSlug]/[user]                                      219 B           372 kB
+├ λ /org/[orgSlug]/[user]/[type]                               6.65 kB         810 kB
+├ λ /org/[orgSlug]/instant-meeting/team/[slug]/[type]          4.15 kB         652 kB
+├ λ /org/[orgSlug]/team/[slug]                                 344 B           366 kB
+├ λ /org/[orgSlug]/team/[slug]/[type]                          6.54 kB         810 kB
+├ λ /payment/[uid]                                             21 kB           187 kB
+├ λ /reschedule/[uid]                                          142 B          93.2 kB
+├ λ /reschedule/[uid]/embed                                    142 B          93.2 kB
+├ λ /routing-forms                                             411 B          89.5 kB
+├ λ /routing-forms/[...pages]                                  411 B          89.5 kB
+├ λ /settings/admin                                            150 B          89.3 kB
+├ λ /settings/admin/apps                                       411 B          89.5 kB
+├ λ /settings/admin/apps/[category]                            242 B           253 kB
+├ λ /settings/admin/flags                                      7.6 kB          190 kB
+├ λ /settings/admin/impersonation                              4.24 kB         186 kB
+├ λ /settings/admin/lockedSMS                                  17.5 kB         263 kB
+├ λ /settings/admin/oAuth                                      17.7 kB         236 kB
+├ λ /settings/admin/organizations                              22.8 kB         237 kB
+├ λ /settings/admin/organizations/[id]/edit                    11 kB           212 kB
+├ λ /settings/admin/users                                      15.5 kB         245 kB
+├ λ /settings/admin/users/[id]/edit                            963 B           389 kB
+├ λ /settings/admin/users/add                                  652 B           388 kB
+├ λ /settings/admin/workspace-platforms                        24 kB           270 kB
+├ λ /settings/billing                                          165 B           165 kB
+├ λ /settings/developer/api-keys                               23.1 kB         276 kB
+├ λ /settings/developer/webhooks                               25.8 kB         224 kB
+├ λ /settings/developer/webhooks/[id]                          26.6 kB         280 kB
+├ λ /settings/developer/webhooks/new                           5.4 kB         1.34 MB
+├ λ /settings/license-key/new                                  40.5 kB         555 kB
+├ λ /settings/my-account/appearance                            12.8 kB         386 kB
+├ λ /settings/my-account/calendars                             31.2 kB         293 kB
+├ λ /settings/my-account/conferencing                          551 B          1.34 MB
+├ λ /settings/my-account/general                               15.8 kB         380 kB
+├ λ /settings/my-account/out-of-office                         23.6 kB         261 kB
+├ λ /settings/my-account/profile                               24.1 kB         411 kB
+├ λ /settings/organizations/[id]/about                         422 B           401 kB
+├ λ /settings/organizations/[id]/add-teams                     420 B           401 kB
+├ λ /settings/organizations/[id]/members                       6.43 kB         659 kB
+├ λ /settings/organizations/[id]/onboard-members               531 B           304 kB
+├ λ /settings/organizations/admin-api                          10.8 kB         211 kB
+├ λ /settings/organizations/appearance                         3.35 kB         254 kB
+├ λ /settings/organizations/attributes                         22.2 kB         222 kB
+├ λ /settings/organizations/attributes/[id]/edit               1.22 kB         278 kB
+├ λ /settings/organizations/attributes/create                  1.07 kB         278 kB
+├ λ /settings/organizations/billing                            165 B           165 kB
+├ λ /settings/organizations/domain-wide-delegation             22.6 kB         265 kB
+├ λ /settings/organizations/dsync                              10.4 kB         369 kB
+├ λ /settings/organizations/general                            28.5 kB         356 kB
+├ λ /settings/organizations/members                            10.8 kB         672 kB
+├ λ /settings/organizations/new                                420 B           401 kB
+├ λ /settings/organizations/privacy                            8.25 kB         206 kB
+├ λ /settings/organizations/profile                            15.4 kB         506 kB
+├ λ /settings/organizations/sso                                2.25 kB         247 kB
+├ λ /settings/organizations/teams/other                        23.9 kB         231 kB
+├ λ /settings/organizations/teams/other/[id]/appearance        3.13 kB         235 kB
+├ λ /settings/organizations/teams/other/[id]/members           15.4 kB         303 kB
+├ λ /settings/organizations/teams/other/[id]/profile           21.3 kB         479 kB
+├ λ /settings/platform                                         7.73 kB         385 kB
+├ λ /settings/platform/billing                                 5.71 kB         383 kB
+├ λ /settings/platform/managed-users                           9.49 kB         549 kB
+├ λ /settings/platform/members                                 8.82 kB         661 kB
+├ λ /settings/platform/new                                     2.28 kB         256 kB
+├ λ /settings/platform/oauth-clients/[clientId]/edit           6.22 kB         384 kB
+├ λ /settings/platform/oauth-clients/[clientId]/edit/webhooks  10.4 kB         388 kB
+├ λ /settings/platform/oauth-clients/create                    5.38 kB         383 kB
+├ λ /settings/platform/plans                                   5.21 kB         383 kB
+├ λ /settings/security/impersonation                           15.5 kB         184 kB
+├ λ /settings/security/password                                22.7 kB         285 kB
+├ λ /settings/security/sso                                     451 B           245 kB
+├ λ /settings/security/two-factor-auth                         16.7 kB         223 kB
+├ λ /settings/teams                                            3.81 kB         304 kB
+├ λ /settings/teams/[id]/appearance                            3.13 kB         235 kB
+├ λ /settings/teams/[id]/billing                               165 B           165 kB
+├ λ /settings/teams/[id]/event-type                            25.3 kB         266 kB
+├ λ /settings/teams/[id]/members                               46.9 kB         591 kB
+├ λ /settings/teams/[id]/onboard-members                       396 B           304 kB
+├ λ /settings/teams/[id]/profile                               9.31 kB         482 kB
+├ λ /settings/teams/[id]/settings                              34.7 kB         371 kB
+├ λ /settings/teams/new                                        6.49 kB         326 kB
+├ λ /signup                                                    23 kB           354 kB
+├ λ /team/[slug]                                               344 B           366 kB
+├ λ /team/[slug]/[type]                                        6.54 kB         810 kB
+├ λ /teams                                                     4.31 kB         297 kB
+├ λ /upgrade                                                   2.28 kB         370 kB
+├ λ /video/[uid]                                               99.8 kB         356 kB
+├ λ /video/meeting-ended/[uid]                                 5.72 kB         156 kB
+├ λ /video/meeting-not-started/[uid]                           5.83 kB         156 kB
+├ λ /video/no-meeting-found                                    4.31 kB         146 kB
+├ λ /workflows                                                 13.6 kB         383 kB
+└ λ /workflows/[workflow]                                      30.1 kB         624 kB
++ First Load JS shared by all                                  89.1 kB
+  ├ chunks/8593596e-795ad9f657a109ca.js                        53.8 kB
+  ├ chunks/99619-2074ec9ae3156845.js                           28.3 kB
+  ├ chunks/main-app-170de96683de5a02.js                        240 B
+  └ chunks/webpack-50aa16128f17dec1.js                         6.81 kB
+
+Route (pages)                                                  Size     First Load JS
+┌   /_app                                                      0 B             154 kB
+├ λ /[user]/[type]/embed                                       742 B           667 kB
+├ λ /[user]/embed                                              2.33 kB         268 kB
+├ ● /404                                                       4.49 kB         256 kB
+├ λ /api/auth/[...nextauth]                                    0 B             154 kB
+├ λ /api/auth/changepw                                         0 B             154 kB
+├ λ /api/auth/forgot-password                                  0 B             154 kB
+├ λ /api/auth/oauth/me                                         0 B             154 kB
+├ λ /api/auth/oauth/refreshToken                               0 B             154 kB
+├ λ /api/auth/oauth/token                                      0 B             154 kB
+├ λ /api/auth/oidc                                             0 B             154 kB
+├ λ /api/auth/reset-password                                   0 B             154 kB
+├ λ /api/auth/saml/authorize                                   0 B             154 kB
+├ λ /api/auth/saml/callback                                    0 B             154 kB
+├ λ /api/auth/saml/token                                       0 B             154 kB
+├ λ /api/auth/saml/userinfo                                    0 B             154 kB
+├ λ /api/auth/setup                                            0 B             154 kB
+├ λ /api/auth/signup                                           0 B             154 kB
+├ λ /api/auth/two-factor/totp/disable                          0 B             154 kB
+├ λ /api/auth/two-factor/totp/enable                           0 B             154 kB
+├ λ /api/auth/two-factor/totp/setup                            0 B             154 kB
+├ λ /api/auth/verify-email                                     0 B             154 kB
+├ λ /api/auth/verify-email.test                                0 B             154 kB
+├ λ /api/avatar/[uuid]                                         0 B             154 kB
+├ λ /api/book/event                                            0 B             154 kB
+├ λ /api/book/instant-event                                    0 B             154 kB
+├ λ /api/book/recurring-event                                  0 B             154 kB
+├ λ /api/calendar-cache/cron                                   0 B             154 kB
+├ λ /api/collect-events                                        0 B             154 kB
+├ λ /api/cron/bookingReminder                                  0 B             154 kB
+├ λ /api/cron/calendar-cache-cleanup                           0 B             154 kB
+├ λ /api/cron/changeTimeZone                                   0 B             154 kB
+├ λ /api/cron/downgradeUsers                                   0 B             154 kB
+├ λ /api/cron/monthlyDigestEmail                               0 B             154 kB
+├ λ /api/cron/syncAppMeta                                      0 B             154 kB
+├ λ /api/cron/webhookTriggers                                  0 B             154 kB
+├ λ /api/cron/workflows/scheduleEmailReminders                 0 B             154 kB
+├ λ /api/cron/workflows/scheduleSMSReminders                   0 B             154 kB
+├ λ /api/cron/workflows/scheduleWhatsappReminders              0 B             154 kB
+├ λ /api/email                                                 0 B             154 kB
+├ λ /api/future-opt-in                                         0 B             154 kB
+├ λ /api/generate-referral-link                                0 B             154 kB
+├ λ /api/geolocation                                           0 B             154 kB
+├ λ /api/get-inbound-dynamic-variables                         0 B             154 kB
+├ λ /api/integrations/[...args]                                0 B             154 kB
+├ λ /api/integrations/alby/webhook                             0 B             154 kB
+├ λ /api/integrations/paypal/webhook                           0 B             154 kB
+├ λ /api/integrations/stripepayment/webhook                    0 B             154 kB
+├ λ /api/integrations/subscriptions/webhook                    0 B             154 kB
+├ λ /api/intercom-hash                                         0 B             154 kB
+├ λ /api/link                                                  0 B             154 kB
+├ λ /api/logo                                                  0 B             154 kB
+├ λ /api/me                                                    0 B             154 kB
+├ λ /api/nope                                                  0 B             154 kB
+├ λ /api/organizations/[org]/subteams                          0 B             154 kB
+├ λ /api/plain                                                 0 B             154 kB
+├ λ /api/plain/components                                      0 B             154 kB
+├ λ /api/plain/customer-card-display                           0 B             154 kB
+├ λ /api/plain/example-cards                                   0 B             154 kB
+├ λ /api/recorded-daily-video                                  0 B             154 kB
+├ λ /api/scim/v2.0/[...directory]                              0 B             154 kB
+├ ℇ /api/social/og/image                                       0 B             154 kB
+├ λ /api/stripe/webhook                                        0 B             154 kB
+├ λ /api/sync/helpscout                                        0 B             154 kB
+├ λ /api/teams/[team]/upgrade                                  0 B             154 kB
+├ λ /api/teams/api/create                                      0 B             154 kB
+├ λ /api/teams/googleworkspace/add                             0 B             154 kB
+├ λ /api/teams/googleworkspace/callback                        0 B             154 kB
+├ λ /api/trpc/admin/[trpc]                                     0 B             154 kB
+├ λ /api/trpc/apiKeys/[trpc]                                   0 B             154 kB
+├ λ /api/trpc/appBasecamp3/[trpc]                              0 B             154 kB
+├ λ /api/trpc/appRoutingForms/[trpc]                           0 B             154 kB
+├ λ /api/trpc/apps/[trpc]                                      0 B             154 kB
+├ λ /api/trpc/appsRouter/[trpc]                                0 B             154 kB
+├ λ /api/trpc/attributes/[trpc]                                0 B             154 kB
+├ λ /api/trpc/auth/[trpc]                                      0 B             154 kB
+├ λ /api/trpc/availability/[trpc]                              0 B             154 kB
+├ λ /api/trpc/bookings/[trpc]                                  0 B             154 kB
+├ λ /api/trpc/deploymentSetup/[trpc]                           0 B             154 kB
+├ λ /api/trpc/domainWideDelegation/[trpc]                      0 B             154 kB
+├ λ /api/trpc/dsync/[trpc]                                     0 B             154 kB
+├ λ /api/trpc/eventTypes/[trpc]                                0 B             154 kB
+├ λ /api/trpc/features/[trpc]                                  0 B             154 kB
+├ λ /api/trpc/googleWorkspace/[trpc]                           0 B             154 kB
+├ λ /api/trpc/highPerf/[trpc]                                  0 B             154 kB
+├ λ /api/trpc/insights/[trpc]                                  0 B             154 kB
+├ λ /api/trpc/oAuth/[trpc]                                     0 B             154 kB
+├ λ /api/trpc/organizations/[trpc]                             0 B             154 kB
+├ λ /api/trpc/payments/[trpc]                                  0 B             154 kB
+├ λ /api/trpc/public/[trpc]                                    0 B             154 kB
+├ λ /api/trpc/routingForms/[trpc]                              0 B             154 kB
+├ λ /api/trpc/saml/[trpc]                                      0 B             154 kB
+├ λ /api/trpc/slots/[trpc]                                     0 B             154 kB
+├ λ /api/trpc/teams/[trpc]                                     0 B             154 kB
+├ λ /api/trpc/timezones/[trpc]                                 0 B             154 kB
+├ λ /api/trpc/users/[trpc]                                     0 B             154 kB
+├ λ /api/trpc/viewer/[trpc]                                    0 B             154 kB
+├ λ /api/trpc/webhook/[trpc]                                   0 B             154 kB
+├ λ /api/trpc/workflows/[trpc]                                 0 B             154 kB
+├ λ /api/username                                              0 B             154 kB
+├ λ /api/verify-booking-token                                  0 B             154 kB
+├ λ /api/version                                               0 B             154 kB
+├ λ /api/webhook/app-credential                                0 B             154 kB
+├ λ /apps/[slug]/[...pages]                                    245 kB          731 kB
+├ λ /org/[orgSlug]/[user]/[type]/embed                         927 B           667 kB
+├ λ /org/[orgSlug]/[user]/embed                                398 B           399 kB
+├ λ /org/[orgSlug]/embed                                       357 B           393 kB
+├ λ /router                                                    509 B           155 kB
+├ λ /router/embed                                              538 B           155 kB
+├ λ /team/[slug]/[type]/embed                                  792 B           667 kB
+└ λ /team/[slug]/embed                                         355 B           393 kB
++ First Load JS shared by all                                  209 kB
+  ├ chunks/framework-96da8267acd1b075.js                       67.3 kB
+  ├ chunks/main-b5847f709d5ffaa9.js                            39.9 kB
+  ├ chunks/pages/_app-122917d482cfdab7.js                      40 kB
+  ├ chunks/webpack-50aa16128f17dec1.js                         6.81 kB
+  └ css/48c3915894b3bd85.css                                   55.3 kB
+
+ƒ Middleware                                                   100 kB
+
+ℇ  (Streaming)  server-side renders with streaming (uses React 18 SSR streaming or Server Components)
+λ  (Server)     server-side renders at runtime (uses getInitialProps or getServerSideProps)
+○  (Static)     automatically rendered as static HTML (uses no initial props)
+●  (SSG)        automatically generated as static HTML + JSON (uses getStaticProps)
+

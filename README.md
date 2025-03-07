@@ -242,7 +242,7 @@ for Logger level to be set at info, for example.
    In a development environment, run:
 
    ```sh
-   yarn workspace @calcom/prisma db-migrate
+   npx prisma migrate dev --skip-generate !!!!
    ```
 
    In a production environment, run:
